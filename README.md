@@ -1,18 +1,18 @@
 # AutoBspwm
 
-Este es un script de instalación de BSPWM para kali o parrot linux, cabe aclarar que puede funcionar en otras distribuciones base debian sin embargo en las unicas que se mantiene estable y las cuales les daremos soporte será Kali linux y Parrot linux
+Este es un script de instalación de BSPWM para SOLO PARA KALI LINUX.
 
 ## [Instalación]
 (AVISO: No ejecutes el script como ROOT o SUDO, el script te pedirá tu contraseña por cuenta propia, si lo ejecutas como root la instalación se detendrá)
 
 Si necesitas más ayuda con esta instalación aquí tienes un video tutorial.
 
-TUTORIAL: [![TUTORIAL]](https://youtu.be/h2Au2ebTXJc?feature=shared)
+TUTORIAL: 
 
 1.- Uso del Script 
 
 ```
-git clone https://github.com/ZLCube/AutoBspwm.git
+git clone https://github.com/sistemas-creatica-ong/AutoBspwm.git
 ```
 ```
 cd AutoBspwm
@@ -23,9 +23,8 @@ chmod +x AutoInstall.sh
 ```
 ./AutoInstall.sh
 ```
-2.- Selecciona tu sistema operativo, 1 kali 2 parrot.
+2.- Selecciona 1 para ejecutar el script 0 para salir.
 
-![](https://github.com/ZLCube/AutoBspwm/blob/main/pics/menu.png)
 
 3.- Nos va a saltar un theme selector NO SELECCIONES NADA AUN ignoralo
 
