@@ -33,7 +33,7 @@ menu()
 
 exec()
 {
-	case
+	case $1 in
 		1)
 			sudo apt update && sudo apt upgrade && sudo apt install zenity && ./install.sh && ./theme.sh
 			;;
