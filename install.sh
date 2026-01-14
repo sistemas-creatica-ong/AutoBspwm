@@ -110,7 +110,7 @@ sudo cp -v $ruta/scripts/kitty_start /usr/local/bin/
 sudo apt install -y zsh-syntax-highlighting zsh-autosuggestions
 sudo mkdir /usr/share/zsh-sudo
 cd /usr/share/zsh-sudo
-sudo wget https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh
+sudo wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/refs/heads/master/plugins/sudo/sudo.plugin.zsh
 
 # Cambiando de SHELL a zsh
 
