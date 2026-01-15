@@ -141,11 +141,11 @@ Cinnamoroll_theme()
 	echo "config setup"
  	#Install Font for Cinnamonrollnamoroll icons
 	mkdir ~/.fonts
-	sudo cp $ruta/fonts/fontello.ttf ~/.fonts/
+	sudo cp $ruta/themes/Cinnamonroll/fonts/fontello.ttf ~/.fonts/
 	fc-cache
 
 	#Move neofetch
-	sudo cp $ruta/cnn ~/.cnn 
+	sudo cp $ruta/themes/Cinnamonroll/cnn ~/.cnn 
     rofi-theme-selector
     echo "Cinnamoroll theme instalado"
     kill -9 -1

@@ -35,7 +35,7 @@ exec()
 {
 	case $1 in
 		1)
-			sudo apt update -y && sudo apt upgrade && sudo apt install -y zenity && ./install.sh && ./theme.sh
+			sudo apt update -y && sudo apt upgrade && sudo apt install -y zenity && ./install.sh
 			;;
 		0)
 			echo "Script finalizado"
