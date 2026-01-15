@@ -11,14 +11,14 @@ opciones()
 Pacman_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/Pacman/.p10k.zsh
-	sudo chmod +x $ruta/Themes/Pacman/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/Pacman/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/Pacman/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/Pacman/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/Pacman/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/Pacman/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/Pacman/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Pacman/.p10k.zsh
+	sudo chmod +x $ruta/themes/Pacman/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Pacman/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Pacman/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Pacman/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Pacman/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Pacman/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Pacman/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -29,13 +29,13 @@ Pacman_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/cinn2.jpg ~/Wallpaper/
-    sudo cp -v $ruta/Themes/Pacman/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/Pacman/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Pacman/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Pacman/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Pacman/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/Pacman/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/Pacman/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -46,14 +46,14 @@ Pacman_theme()
 Parrot_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/Parrot/.p10k.zsh
-	sudo chmod +x $ruta/Themes/Parrot/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/Parrot/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/Parrot/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/Parrot/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/Parrot/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/Parrot/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/Parrot/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Parrot/.p10k.zsh
+	sudo chmod +x $ruta/themes/Parrot/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Parrot/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Parrot/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Parrot/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Parrot/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Parrot/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Parrot/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -64,12 +64,13 @@ Parrot_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/Parrot/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/Parrot/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Parrot/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Parrot/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Parrot/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/Parrot/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/Parrot/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -80,14 +81,14 @@ Parrot_theme()
 S4vi_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/S4vi/.p10k.zsh
-	sudo chmod +x $ruta/Themes/S4vi/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/S4vi/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/S4vi/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/S4vi/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/S4vi/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/S4vi/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/S4vi/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/S4vi/.p10k.zsh
+	sudo chmod +x $ruta/themes/S4vi/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/S4vi/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/S4vi/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/S4vi/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/S4vi/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/S4vi/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/S4vi/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -98,12 +99,13 @@ S4vi_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/S4vi/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/S4vi/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/S4vi/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/S4vi/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/S4vi/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/S4vi/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/S4vi/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -114,14 +116,14 @@ S4vi_theme()
 Cinnamoroll_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/cin/.p10k.zsh
-	sudo chmod +x $ruta/Themes/cin/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/cin/config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/cin/config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/cin/config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/cin/config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/cin/config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/cin/config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Cinnamonroll/.p10k.zsh
+	sudo chmod +x $ruta/themes/Cinnamonroll/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Cinnamonroll/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Cinnamonroll/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Cinnamonroll/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Cinnamonroll/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Cinnamonroll/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Cinnamonroll/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -132,16 +134,16 @@ Cinnamoroll_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/cin/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/cin/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Cinnamonroll/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Cinnamonroll/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Cinnamonroll/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/cin/config/* ~/.config/
-	sudo cp -rv $ruta/cin2.jpg ~/Wallpaper/
+	sudo cp -rv $ruta/themes/Cinnamonroll/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
- 	#Install Font for cinnamoroll icons
+ 	#Install Font for Cinnamonrollnamoroll icons
 	mkdir ~/.fonts
 	sudo cp $ruta/fonts/fontello.ttf ~/.fonts/
 	fc-cache
@@ -156,14 +158,14 @@ Cinnamoroll_theme()
 Pink_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/Pink/.p10k.zsh
-	sudo chmod +x $ruta/Themes/Pink/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/Pink/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/Pink/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/Pink/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/Pink/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/Pink/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/Pink/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Pink/.p10k.zsh
+	sudo chmod +x $ruta/themes/Pink/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Pink/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Pink/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Pink/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Pink/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Pink/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Pink/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -174,12 +176,13 @@ Pink_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/Pink/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/Pink/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Pink/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Pink/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Pink/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/Pink/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/Pink/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -190,14 +193,14 @@ Pink_theme()
 ZLCube_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/ZLCube/.p10k.zsh
-	sudo chmod +x $ruta/Themes/ZLCube/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/ZLCube/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/ZLCube/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/ZLCube/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/ZLCube/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/ZLCube/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/ZLCube/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/ZLCube/.p10k.zsh
+	sudo chmod +x $ruta/themes/ZLCube/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/ZLCube/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/ZLCube/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/ZLCube/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/ZLCube/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/ZLCube/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/ZLCube/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -208,12 +211,12 @@ ZLCube_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/ZLCube/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/ZLCube/.p10k.zsh-root /root/.p10k.zsh
+    sudo cp -v $ruta/themes/ZLCube/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/ZLCube/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/ZLCube/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/ZLCube/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -224,14 +227,14 @@ ZLCube_theme()
 Legion_theme()
 {
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/Legion/.p10k.zsh
-	sudo chmod +x $ruta/Themes/Legion/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/Legion/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/Legion/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/Legion/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/Legion/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/Legion/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/Legion/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Legion/.p10k.zsh
+	sudo chmod +x $ruta/themes/Legion/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Legion/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Legion/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Legion/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Legion/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Legion/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Legion/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot 
 	#Limpiamos viejos dot files
@@ -242,15 +245,14 @@ Legion_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
  	sudo rm -rf ~/.config/kitty
-  	#sudo rm -rf ~/.config/neofetch
-   	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/Legion/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/Legion/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Legion/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Legion/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Legion/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/Legion/config/* ~/.config/
+	sudo cp -rv $ruta/themes/Legion/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -262,14 +264,14 @@ Kazerg_theme()
 {
 	
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/Kazerg/.p10k.zsh
-	sudo chmod +x $ruta/Themes/Kazerg/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/Kazerg/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/Kazerg/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/Kazerg/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/Kazerg/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/Kazerg/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/Kazerg/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Kazerg/.p10k.zsh
+	sudo chmod +x $ruta/themes/Kazerg/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Kazerg/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Kazerg/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Kazerg/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Kazerg/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Kazerg/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Kazerg/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot
     sudo chmod +x /usr/local/bin/settarget
@@ -282,12 +284,13 @@ Kazerg_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/Kazerg/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/Kazerg/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Kazareg/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Kazerg/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Kazerg/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/Kazerg/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/Kazerg/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector
@@ -300,14 +303,14 @@ Zeneapp_theme()
 {
 	
 	#Damos permisos de ejecución 
-	sudo chmod +x $ruta/Themes/Zeneapp/.p10k.zsh
-	sudo chmod +x $ruta/Themes/Zeneapp/.p10k.zsh-root
-	sudo chmod +x $ruta/Themes/Zeneapp/Config/bspwm/bspwmrc 
-    sudo chmod +x $ruta/Themes/Zeneapp/Config/bspwm/scripts/bspwm_resize 
-    sudo chmod +x $ruta/Themes/Zeneapp/Config/bin/ethernet_status.sh
-    sudo chmod +x $ruta/Themes/Zeneapp/Config/bin/htb_status.sh 
-    sudo chmod +x $ruta/Themes/Zeneapp/Config/bin/htb_target.sh 
-    sudo chmod +x $ruta/Themes/Zeneapp/Config/polybar/launch.sh 
+	sudo chmod +x $ruta/themes/Zeneapp/.p10k.zsh
+	sudo chmod +x $ruta/themes/Zeneapp/.p10k.zsh-root
+	sudo chmod +x $ruta/themes/Zeneapp/config/bspwm/bspwmrc 
+    sudo chmod +x $ruta/themes/Zeneapp/config/bspwm/scripts/bspwm_resize 
+    sudo chmod +x $ruta/themes/Zeneapp/config/bin/ethernet_status.sh
+    sudo chmod +x $ruta/themes/Zeneapp/config/bin/htb_status.sh 
+    sudo chmod +x $ruta/themes/Zeneapp/config/bin/htb_target.sh 
+    sudo chmod +x $ruta/themes/Zeneapp/config/polybar/launch.sh 
     sudo chmod +x /usr/local/bin/whichSystem.py 
     sudo chmod +x /usr/local/bin/screenshot
     sudo chmod +x /usr/local/bin/settarget
@@ -320,12 +323,13 @@ Zeneapp_theme()
 	sudo rm -rf ~/.config/picom
 	sudo rm -rf ~/.config/polybar
 	sudo rm -rf ~/.config/rofi
-	sudo rm -rf ~/.config/Wallpaper
+	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-    sudo cp -v $ruta/Themes/Zeneapp/.p10k.zsh ~/.p10k.zsh
-    sudo cp -v $ruta/Themes/Zeneapp/.p10k.zsh-root /root/.p10k.zsh
+	sudo cp -v $ruta/themes/Zeneapp/config/wallpapers/* ~/wallpapers/
+    sudo cp -v $ruta/themes/Zeneapp/.p10k.zsh ~/.p10k.zsh
+    sudo cp -v $ruta/themes/Zeneapp/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
-	sudo cp -rv $ruta/Themes/Zeneapp/Config/* ~/.config/
+	sudo cp -rv $ruta/themes/Zeneapp/config/* ~/.config/
 	sudo chown $user:$user ~/.config/bin/* 
 	echo "config setup"
     rofi-theme-selector

@@ -76,12 +76,18 @@ sudo cp -v $ruta/fonts/HNF/* /usr/local/share/fonts/
 
 # Instalando Fuentes de Polybar
 
-sudo cp -v $ruta/Config/polybar/fonts/* /usr/share/fonts/truetype/
+sudo cp -v $ruta/config/polybar/fonts/* /usr/share/fonts/truetype/
+
+# Instalando Wallpaper de S4vitar
+
+mkdir ~/wallpapers
+cp -v $ruta/wallpapers/* ~/wallpapers
+mkdir ~/ScreenShots
 
 # Copiando Archivos de Configuración
 
 rm -r ~/.config/polybar
-cp -rv $ruta/Config/* ~/.config/
+cp -rv $ruta/config/* ~/.config/
 sudo cp -rv $ruta/kitty /opt/
 
 # Copia de configuracion de .p10k.zsh y .zshrc
