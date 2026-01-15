@@ -70,9 +70,10 @@ cp $ruta/rofi/nord.rasi ~/.config/rofi/themes/
 
 sudo apt install -y lsd
 
-# Instalamos las HackNerdFonts
+# Instalamos las HackNerdFonts y otros fonts
 
-sudo cp -v $ruta/fonts/HNF/* /usr/local/share/fonts/
+sudo cp -v $ruta/fonts/hack-nerd-fonts/* /usr/local/share/fonts/
+sudo cp -v $ruta/fonts/otros/* /usr/local/share/fonts/
 
 # Instalando Fuentes de Polybar
 
