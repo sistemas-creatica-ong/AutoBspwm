@@ -78,12 +78,6 @@ sudo cp -v $ruta/fonts/HNF/* /usr/local/share/fonts/
 
 sudo cp -v $ruta/Config/polybar/fonts/* /usr/share/fonts/truetype/
 
-# Instalando Wallpaper de S4vitar
-
-mkdir ~/Wallpaper
-cp -v $ruta/Wallpaper/* ~/Wallpaper
-mkdir ~/ScreenShots
-
 # Copiando Archivos de Configuración
 
 rm -r ~/.config/polybar

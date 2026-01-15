@@ -39,10 +39,10 @@ bspc config single_monocle false
 bspc config focus_follows_pointer true
 
 # RESOLUCION ARANDR
-
+~/.config/screenlayout/monitor.sh
 
 # WALLPAPER
-feh --bg-fill ~/Wallpaper/a.png
+feh --bg-fill ~/Wallpaper/elliot.jpeg
 
 # POLYBAR
 ~/.config/polybar/launch.sh
