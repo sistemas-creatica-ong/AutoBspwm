@@ -42,7 +42,7 @@ bspc config focus_follows_pointer true
 ~/.config/screenlayout/monitor.sh
 
 # WALLPAPER
-feh --bg-fill ~/Wallpaper/elliot.jpeg
+feh --bg-fill ~/wallpapers/elliot.jpeg
 
 # POLYBAR
 ~/.config/polybar/launch.sh

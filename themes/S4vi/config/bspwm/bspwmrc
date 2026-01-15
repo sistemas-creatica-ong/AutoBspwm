@@ -21,10 +21,10 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 # RESOLUCION ARANDR
-
+~/.config/screenlayout/monitor.sh
 
 # WALLPAPER
-feh --bg-fill ~/.config/Wallpaper/s4vitar.png
+feh --bg-fill ~/.config/wallpapers/s4vitar.png
 
 # POLYBAR
 ~/.config/polybar/launch.sh

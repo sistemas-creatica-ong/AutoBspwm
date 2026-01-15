@@ -21,10 +21,10 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 # RESOLUCION ARANDR
-
+~/.config/screenlayout/monitor.sh
 
 # WALLPAPER
-feh --bg-fill /home/kali/Wallpaper/cin2.jpg
+feh --bg-fill ~/.config/wallpapers/cin2.jpg
 
 
 # POLYBAR

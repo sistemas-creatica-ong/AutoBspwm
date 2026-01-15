@@ -31,7 +31,6 @@ Pacman_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Pacman/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Pacman/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Pacman/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -66,7 +65,6 @@ Parrot_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Parrot/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Parrot/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Parrot/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -101,7 +99,6 @@ S4vi_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/S4vi/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/S4vi/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/S4vi/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -136,7 +133,6 @@ Cinnamoroll_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Cinnamonroll/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Cinnamonroll/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Cinnamonroll/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -178,7 +174,6 @@ Pink_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Pink/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Pink/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Pink/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -248,7 +243,6 @@ Legion_theme()
 	sudo rm -rf ~/.config/wallpapers
  	sudo rm -rf ~/.config/kitty
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Legion/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Legion/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Legion/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -286,7 +280,6 @@ Kazerg_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Kazareg/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Kazerg/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Kazerg/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
@@ -325,7 +318,6 @@ Zeneapp_theme()
 	sudo rm -rf ~/.config/rofi
 	sudo rm -rf ~/.config/wallpapers
 	#Movemos los dot files
-	sudo cp -v $ruta/themes/Zeneapp/config/wallpapers/* ~/wallpapers/
     sudo cp -v $ruta/themes/Zeneapp/.p10k.zsh ~/.p10k.zsh
     sudo cp -v $ruta/themes/Zeneapp/.p10k.zsh-root /root/.p10k.zsh
     echo "p10k setup"
