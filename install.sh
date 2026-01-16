@@ -126,6 +126,7 @@ chmod +x ~/.config/bin/ethernet_status.sh
 chmod +x ~/.config/bin/htb_status.sh
 chmod +x ~/.config/bin/htb_target.sh
 chmod +x ~/.config/polybar/launch.sh
+chmod +x ~/.config/screenlayout/monitor.sh
 sudo chmod +x /usr/local/bin/whichSystem.py
 sudo chmod +x /usr/local/bin/screenshot
 sudo chmod +x /usr/local/bin/settarget
