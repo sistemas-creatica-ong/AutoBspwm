@@ -142,6 +142,6 @@ echo "Selecciona un theme en el theme selector"
 echo "Selecciona un theme en el theme selector"
 echo "Selecciona un theme en el theme selector"
 
-./theme.sh
+#./theme.sh
 
 notify-send "BSPWM INSTALADO"
